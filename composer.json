@@ -1,0 +1,29 @@
+{
+  "name": "anarchyservice/anarchy-lib",
+  "description": "Complete Library for Telegram Bots With Pure PHP (Full OOP)",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://AnarchyService.xyz",
+  "keywords": ["telegram", "bot", "api", "oop", "PHP", "lib", "library", "php7", "php7.4", "new", "full", "last version"],
+  "authors": [
+    {
+      "name": "Alireza Sawari",
+      "email": "DyarWeb@Yahoo.Com",
+      "homepage": "https://DyarWeb.Com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "AnarchyService\\": "src/"
+    },
+    "files": [
+      "src/jdf.php",
+      "src/Bootstrap.php"
+    ]
+  }
+}
